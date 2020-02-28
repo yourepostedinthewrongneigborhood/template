@@ -1,7 +1,7 @@
 var fs = require('fs');
 var i18n = [];
 var list = [];
-var localization = 'en';
+var localization = 'ru';
 
 fs.readFile('i18n_' + localization + '.json', 'utf8', function (err, content) {
 	i18n = JSON.parse(content);

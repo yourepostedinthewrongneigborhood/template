@@ -1,5 +1,11 @@
 body {background-color: #3F51B5;}
 
+hr {
+  size: 3px; 
+  width: 100%;
+  align: "left"
+}
+
 .demo-ribbon {
   width: 100%;
   height: 40vh;
